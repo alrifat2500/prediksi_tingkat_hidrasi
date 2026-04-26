@@ -121,7 +121,7 @@ with tab1:
         hasil = model.predict(data)[0]
 
         # ===============================
-        # OUTPUT (GOOD / POOR → INDONESIA)
+        # OUTPUT 
         # ===============================
         if hasil == "Good":
             st.success("✅ Hidrasi Baik (Good)")
@@ -163,7 +163,7 @@ with tab1:
 # ===============================
 with tab2:
 
-    st.title("📊 Informasi Hidrasi")
+    st.title("📊 Informasi")
 
     st.markdown("## 💧 Apa itu Hidrasi?")
     st.write("""
