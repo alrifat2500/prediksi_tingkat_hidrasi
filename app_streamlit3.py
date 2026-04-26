@@ -32,7 +32,7 @@ model = load_model()
 with st.sidebar:
 
     try:
-        st.image("img/logoml.png", width=200)
+        st.image("logoml.png", width=200)
     except:
         st.warning("Logo tidak ditemukan")
 
